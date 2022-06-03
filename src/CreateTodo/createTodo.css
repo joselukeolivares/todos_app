@@ -1,0 +1,21 @@
+.createContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.createBtn{
+    font-weight: bolder;
+    font-size: x-large;
+    z-index: 1;
+
+}
+
+.createBtn:hover{
+    animation: creator 1s 
+}
+
+@keyframes creator {
+    100%{
+        transform: rotate(360deg);
+    }
+}

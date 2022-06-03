@@ -1,0 +1,29 @@
+.todo{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    width: 70%;
+}
+
+span{
+    margin: 0px 1rem;
+}
+
+.completed{
+    color:green;
+}
+
+.delete:hover{
+color:red
+
+}
+
+.todoCompleted{
+    text-decoration: line-through;
+}
